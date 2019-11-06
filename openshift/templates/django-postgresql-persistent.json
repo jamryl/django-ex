@@ -329,7 +329,7 @@
               "from": {
                 "kind": "ImageStreamTag",
                 "namespace": "${NAMESPACE}",
-                "name": "postgresql:${POSTGRESQL_VERSION}"
+                "name": "postgis:latest"
               }
             }
           },
@@ -477,7 +477,7 @@
       "displayName": "Git Repository URL",
       "required": true,
       "description": "The URL of the repository with your application source code.",
-      "value": "https://github.com/sclorg/django-ex.git"
+      "value": "https://github.com/jamryl/django-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
